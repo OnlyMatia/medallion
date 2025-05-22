@@ -15,12 +15,12 @@ const navLinks = [
 
 export default function Nav () {
     const pathname = usePathname()
-    const [isOpen, setOpen] = useState(true)
+    const [isOpen, setOpen] = useState(false)
     
     return (
-        <nav className="w-full overflow-hidden">
-            <div className="mt-2 mx-2 px-4 py-2 bg-white/10 backdrop-blur-2xl w-fill italic flex flex-row justify-between items-center z-10">
-                <Link href="/" className="w-auto max-w-[120px] sm:max-w-[140px] h-auto p-2">
+        <nav className="w-full overflow-hidden fixed z-50">
+            <div className="mt-3 mx-3 px-4 py-2 bg-white/10 backdrop-blur-sm w-fill italic flex flex-row justify-between items-center z-10">
+                <Link href="/" className="w-auto max-w-[120px] sm:max-w-[140px] h-auto ">
                     <Image 
                         src="/logo.png"
                         width={120}
@@ -31,7 +31,7 @@ export default function Nav () {
                     />
                 </Link>
 
-                <ul className="hidden md:flex flex-row gap-5 ">
+                <ul className="hidden md:flex flex-row gap-5 text-xl">
                     {navLinks.map((el, i) => {
                         if(pathname === el.link) {
                             return (
@@ -64,8 +64,8 @@ export default function Nav () {
                     </div>
                 </button>
 
-                <Link href="/shop" className="text-lg hover:text-white/50 duration-200 hidden md:block">
-                    🛒Shop
+                <Link href="/shop" className="text-xl hover:text-white/50 duration-200 hidden md:block">
+                    🛒 Trgovina
                 </Link>
             </div>
 
@@ -76,8 +76,8 @@ export default function Nav () {
                 animate={{opacity:1, y: 0}}
                 exit={{opacity:0, y:"-100%"}}
                 transition={{duration:0.3,stiffness:0}}
-                className=" w-full md:hidden">
-                    <div className=" mx-2 px-4 pb-1 bg-white/10 backdrop-blur-2xl flex flex-col gap-5 ">
+                className="absolute w-full md:hidden ">
+                    <div className=" mx-3 px-4 pb-1 bg-white/10 backdrop-blur-2xl flex flex-col gap-5 ">
                         <ul className="flex flex-col items-center justify-center italic text-2xl text-center border-t ">
                             {navLinks.map((el, i) => {
                                 return (
