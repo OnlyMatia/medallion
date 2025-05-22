@@ -18,7 +18,7 @@ export default function Nav () {
     const [isOpen, setOpen] = useState(false)
     
     return (
-        <nav className="w-full overflow-hidden fixed z-50">
+        <nav className="w-full fixed z-50">
             <div className="mt-3 mx-3 px-4 py-2 bg-white/10 backdrop-blur-sm w-fill italic flex flex-row justify-between items-center z-10">
                 <Link href="/" className="w-auto max-w-[120px] sm:max-w-[140px] h-auto ">
                     <Image 
