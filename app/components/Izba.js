@@ -1,14 +1,12 @@
 "use client"
 
-import { AnimatePresence, motion } from "framer-motion";
+import { AnimatePresence, hover, motion } from "framer-motion";
 import Image from "next/image"
 import Link from "next/link"
 import { useEffect, useState } from "react";
 
-
-
 const Izba = () => {
-    const colors = ["#D4B23D", "#980E0E", "#0E4632", "#080864", "white"];
+    const colors = ["white", "#980E0E", "#0E4632", "#080864", ];
 
     const [colorIndex, setColorIndex] = useState(0);
     const [prevIndex, setPrevIndex] = useState(0);
@@ -72,7 +70,7 @@ const Izba = () => {
 
                 <div className="flex flex-col gap-4 text-black w-full md:px-0 md:w-1/2">
                     <div>
-                        <span className="text-xs">Tko smo mi?</span>
+                        <span className="text-sm">Tko smo mi?</span>
                         <h2 className="text-4xl md:text-5xl lg:text-6xl ">
                             Hercegovačka <br/> Izba
                         </h2>
@@ -82,9 +80,9 @@ const Izba = () => {
                         Hercegovačka izba naziv je inspiriran starom riječju za sušnicu, središnje mjesto svakog doma. Mi smo obiteljska firma s misijom da oživimo ćupter, tradicionalnu hercegovačku slasticu. Kroz naše proizvode čuvamo gastronomsku baštinu i duh zajedništva, podsjećajući da Hercegovina nije samo prostor, već i način života.
                     </p>
 
-                    <button className="border w-fit px-2 py-1">
-                        <Link href="#">
-                            Saznaj Više
+                    <button className="border w-fit px-2 py-1 ">
+                        <Link href="#" className="flex items-center gap-1 hover:scale-[0.95] duration-300">
+                            Saznaj Više →
                         </Link>
                     </button>
                 </div>
