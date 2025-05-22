@@ -1,4 +1,6 @@
 
+
+
 import Header from "./components/Header";
 import Izba from "./components/Izba";
 import Slogan from "./components/Slogan";
@@ -9,7 +11,7 @@ export default function Home() {
       <Header />
       <Slogan />
       <Izba />
-    
+      
       <div className="h-screen"></div>
     </main>
   );

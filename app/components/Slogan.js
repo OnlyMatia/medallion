@@ -11,7 +11,7 @@ const Slogan = () => {
                     <p>
                         U svakom komadiću skrivena je priča starih generacija. Ručno pravljen, od autohtonih sorti Žilavke i Blatine iz srca Hercegovine, ćupter nije samo slastica. On je povratak u djetinjstvo, u mirise bakinih kuhinja i okuse kojima se vraćamo.
                     </p>
-                    <a href="#">Otkrij Više</a>
+                    <a href="#" className="underline hover:text-white/80">Otkrij Više ↗</a>
                 </div>
             </div>
         </section>  
