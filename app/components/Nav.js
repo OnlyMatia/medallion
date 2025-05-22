@@ -19,7 +19,7 @@ export default function Nav () {
     
     return (
         <nav className="w-full fixed z-40">
-            <div className="mt-3 mx-3 px-4 py-2 bg-white/10 backdrop-blur-sm w-fill italic flex flex-row justify-between items-center z-50">
+            <div className="mt-3 mx-1 md:mx-3 px-3 py-2 bg-white/10 backdrop-blur-sm w-fill italic flex flex-row justify-between items-center z-50">
                 <Link href="/" className="w-auto max-w-[120px] sm:max-w-[140px] h-auto ">
                     <Image 
                         src="/logo.png"
