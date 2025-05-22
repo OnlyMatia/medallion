@@ -28,18 +28,18 @@ const Header = () => {
     }
 
     return (
-        <header className="w-full min-h-screen   flex flex-col">
+        <header className="w-full min-h-[70vh] flex flex-col ">
 
             <div className="w-full lg:w-3/4 py-[8vw] md:py-[4vw] lg:py-[2vw] italic px-1 md:px-3 ">
                 <h1 className="text-4xl md:text-5xl lg:text-7xl mb-3">
-                    Ćupter - Prirodni Hercegovački slatkiš od autohtornih sorti grožđa.
+                    Ćupter - Prirodni Hercegovački slatkiš od autohtonih sorti grožđa.
                 </h1>
                 <p className="text-base md:text-xl py-2 opacity-[0.7]">
                     Otkrijte zaboravljeni slatkiš s bogatom poviješću.
                 </p>
             </div>
 
-            <div className="w-full flex justify-between text-sm opacity-[0.3] italic py-1 md:px-3">
+            <div className="w-full flex justify-between text-sm opacity-[0.4] italic py-1 md:px-3">
                 <span>
                     Ćupter
                 </span>
@@ -90,7 +90,9 @@ const Header = () => {
                 </div>
             </div>
 
-           
+            <div className="w-full px-1 md:px-3 opacity-[0.4] italic py-1 text-sm">
+                <p>[Ćupter reklama.mp4]</p>
+            </div>
         </header>
     )
 }

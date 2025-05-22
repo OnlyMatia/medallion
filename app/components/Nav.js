@@ -77,7 +77,7 @@ export default function Nav () {
                 exit={{opacity:0, y:"-100%"}}
                 transition={{duration:0.3,stiffness:0}}
                 className="absolute w-full md:hidden">
-                    <div className=" mx-3 px-4 pb-1 bg-white/10 backdrop-blur-2xl flex flex-col gap-5 ">
+                    <div className=" mx-1 md:mx-3 px-4 pb-1 bg-white/10 backdrop-blur-sm flex flex-col gap-5 ">
                         <ul className="flex flex-col items-center justify-center italic text-2xl text-center border-t ">
                             {navLinks.map((el, i) => {
                                 return (
