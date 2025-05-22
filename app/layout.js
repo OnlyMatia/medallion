@@ -9,8 +9,8 @@ export const metadata = {
 
 export default function RootLayout({ children }) {
   return (
-    <html lang="en">
-      <body>
+    <html lang="ba">
+      <body cz-shortcut-listen="true">
       <Nav />
         {children}
       </body>
