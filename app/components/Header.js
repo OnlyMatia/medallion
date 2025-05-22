@@ -30,7 +30,7 @@ const Header = () => {
     return (
         <header className="w-full min-h-screen   flex flex-col">
 
-            <div className="w-full lg:w-3/4 py-[8vw] md:py-[4vw] lg:py-[2vw] italic px-3 ">
+            <div className="w-full lg:w-3/4 py-[8vw] md:py-[4vw] lg:py-[2vw] italic px-1 md:px-3 ">
                 <h1 className="text-4xl md:text-5xl lg:text-7xl mb-3">
                     Ćupter - Prirodni Hercegovački slatkiš od autohtornih sorti grožđa.
                 </h1>
@@ -39,7 +39,7 @@ const Header = () => {
                 </p>
             </div>
 
-            <div className="w-full flex justify-between text-sm opacity-[0.3] italic py-1 px-3">
+            <div className="w-full flex justify-between text-sm opacity-[0.3] italic py-1 md:px-3">
                 <span>
                     Ćupter
                 </span>
@@ -48,7 +48,7 @@ const Header = () => {
                 </span>
             </div>
 
-            <div className="relative w-full h-[33vh] md:h-[70vh] lg:h-[80vh] overflow-hidden md:px-3">
+            <div className="relative w-full h-[33vh] sm:h-[50vh] md:h-[70vh] lg:h-[80vh] overflow-hidden md:px-3">
                 <video 
                 ref={videoRef}
                 src="/reklama.mp4"

@@ -18,8 +18,8 @@ export default function Nav () {
     const [isOpen, setOpen] = useState(false)
     
     return (
-        <nav className="w-full fixed z-50">
-            <div className="mt-3 mx-3 px-4 py-2 bg-white/10 backdrop-blur-sm w-fill italic flex flex-row justify-between items-center z-10">
+        <nav className="w-full fixed z-40">
+            <div className="mt-3 mx-3 px-4 py-2 bg-white/10 backdrop-blur-sm w-fill italic flex flex-row justify-between items-center z-50">
                 <Link href="/" className="w-auto max-w-[120px] sm:max-w-[140px] h-auto ">
                     <Image 
                         src="/logo.png"
@@ -76,7 +76,7 @@ export default function Nav () {
                 animate={{opacity:1, y: 0}}
                 exit={{opacity:0, y:"-100%"}}
                 transition={{duration:0.3,stiffness:0}}
-                className="absolute w-full md:hidden ">
+                className="absolute w-full md:hidden">
                     <div className=" mx-3 px-4 pb-1 bg-white/10 backdrop-blur-2xl flex flex-col gap-5 ">
                         <ul className="flex flex-col items-center justify-center italic text-2xl text-center border-t ">
                             {navLinks.map((el, i) => {
