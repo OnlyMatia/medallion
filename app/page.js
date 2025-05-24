@@ -1,6 +1,4 @@
 
-
-
 import Cilj from "./components/Cilj";
 import Header from "./components/Header";
 import Izba from "./components/Izba";

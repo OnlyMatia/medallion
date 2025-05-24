@@ -35,7 +35,7 @@ const Header = () => {
                     Ćupter - Prirodni Hercegovački slatkiš od autohtonih sorti grožđa.
                 </h1>
                 <p className="text-base md:text-xl py-2 opacity-[0.7]">
-                    Otkrijte zaboravljeni slatkiš s bogatom poviješću.
+                    Istražite zaboravljeni slatkiš od grožđa.
                 </p>
             </div>
 

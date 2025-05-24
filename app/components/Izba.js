@@ -80,8 +80,8 @@ const Izba = () => {
                         Hercegovačka izba naziv je inspiriran starom riječju za sušnicu, središnje mjesto svakog doma. Mi smo obiteljska firma s misijom da oživimo ćupter, tradicionalnu hercegovačku slasticu. Kroz naše proizvode čuvamo gastronomsku baštinu i duh zajedništva, podsjećajući da Hercegovina nije samo prostor, već i način života.
                     </p>
 
-                    <button className="border w-fit px-2 py-1 ">
-                        <Link href="#" className="flex items-center gap-1 hover:scale-[0.95] duration-300">
+                    <button className="border w-fit px-2 py-1">
+                        <Link href="#" className="flex items-center gap-1 hover:scale-[0.95] duration-300 ">
                             Saznaj Više →
                         </Link>
                     </button>
