@@ -1,8 +1,10 @@
 
 
 
+import Cilj from "./components/Cilj";
 import Header from "./components/Header";
 import Izba from "./components/Izba";
+import Products from "./components/Products";
 import Slogan from "./components/Slogan";
 
 export default function Home() {
@@ -11,6 +13,8 @@ export default function Home() {
       <Header />
       <Slogan />
       <Izba />
+      <Cilj />
+      <Products />
       
       <div className="h-screen"></div>
     </main>

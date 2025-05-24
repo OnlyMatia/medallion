@@ -11,3 +11,12 @@ body {
   color: var(--foreground);
   font-family:  Helvetica, Arial, sans-serif;
 }
+
+.custom-scroll::-webkit-scrollbar {
+  display: none;
+}
+
+.custom-scroll {
+  -ms-overflow-style: none; 
+  scrollbar-width: none;
+}
